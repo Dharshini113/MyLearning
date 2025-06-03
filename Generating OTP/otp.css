@@ -1,0 +1,26 @@
+body{
+    /* background: lightgray; */
+    background-image: linear-gradient(to right,rgb(243, 163, 163),rgb(182, 182, 243),rgb(155, 255, 155));
+    text-align: center;
+    color: rgb(112, 104, 104);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: rgb(17, 17, 17);
+    transition: 0.5s;
+}
+button:hover{
+    background: rgb(167, 252, 247);
+    color: rgb(58, 59, 59);
+    cursor: pointer;
+
+}
+span{
+    font-size: 42px;
+    color: rgb(2, 177, 16);
+}
