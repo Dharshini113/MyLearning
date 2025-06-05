@@ -15,10 +15,17 @@ console.log(b2)
 
 
 b1.addEventListener('click' ,function(){
+    setTimeout(() => {
+        photo.src="normal.jpg"
+    }, 2000);
     photo.src="Happy.jpg"
 })
 
 b2.addEventListener('click' ,function(){
+    setTimeout(() => {
+        photo.src="normal.jpg"
+        
+    }, 5000);
     photo.src="Sad.jpg"
 })
 
